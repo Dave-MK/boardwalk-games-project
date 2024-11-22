@@ -30,8 +30,11 @@ h3 {
     color: var(--highlight-color);
 }
 
+/* Navbar styles */
 
-
+#navbar {
+    background-color: var(--primary-color);
+}
 
 
 /* Grid Visualisation for Testing */
