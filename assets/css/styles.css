@@ -72,6 +72,37 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+
+/* Media Queries */
+
+/* Medium devices (Tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/* Larger devices (Laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/* XL devices (1200px and up) */
+@media screen and (min-width: 1200px) {
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/* XXL devices (1400px and up) */
+@media screen and (min-width: 1400px) {
+    #services .card-body {
+        min-height: 195px;
+    }
+}
+
 /* Grid Visualisation for Testing */
 
 /* .container,
