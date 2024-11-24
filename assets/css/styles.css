@@ -4,6 +4,7 @@
 
 /* CSS Variables */
 
+
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
@@ -42,6 +43,14 @@ h2 {
 .section {
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+/* Messages */
+
+.custom-message {
+    background-color: var(--highlight-color);
+    color: white;
+    font-weight: bold;
 }
 
 /* Buttons */
@@ -144,6 +153,12 @@ h2 {
 
 /* Media Queries */
 
+@media screen and (max-width: 576px) {
+    .table-responsive .table{
+        font-size: 0.8rem;
+      }
+}
+
 /* Medium devices (Tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     #services .card-body,
@@ -154,12 +169,20 @@ h2 {
     #fav-games .card-body {
         min-height: 315px;
     }
+
+    .custom-message {
+        margin: 0 190px;
+    }
 }
 
 /* Larger devices (Laptops, 992px and up) */
 @media screen and (min-width: 992px) {
     #services .card-body {
         min-height: auto;
+    }
+
+    .custom-message {
+        margin: 0 85px;
     }
 }
 
@@ -172,12 +195,20 @@ h2 {
     #fav-games .card-body {
         min-height: 340px;
     }
+
+    .custom-message {
+        margin: 0 130px;
+    }
 }
 
 /* XXL devices (1400px and up) */
 @media screen and (min-width: 1400px) {
     #services .card-body {
         min-height: 195px;
+    }
+
+    .custom-message {
+        margin: 0 170px;
     }
 }
 
