@@ -139,6 +139,8 @@ h2 {
 #contact .social-links i {
     color: var(--light-highlight-color);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -210,15 +212,3 @@ h2 {
         margin: 0 170px;
     }
 }
-
-/* Grid Visualisation for Testing */
-
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
