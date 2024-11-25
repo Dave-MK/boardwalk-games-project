@@ -191,6 +191,50 @@
                 </div>
             </div>
         </section>
+        <!-- Booking inquiry form section -->
+        <section id="reservation-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h1 class="display-6 text-center">Reserve a Game</h1>
+                    <p class="my-4">Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the adventure begin! Fill out your details and preferred game below, and we'll have it set aside for you when you arrive.</p>
+                    <form action="success.html" method="get">
+                        <div class="row">
+                            <div class="col-12 col-xl-4 mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-xl-4 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-xl-4 mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-xl-8 mb-3">
+                                <label for="game-type" class="form-label">Select game...</label>
+                                <select id="game-type" class="form-select" name="game-type" required>
+                                    <option value="" selected>Select game</option>
+                                    <option value="galaxy-pioneers">Galaxy Pioneers</option>
+                                    <option value="mystic-woods">Mystic Woods</option>
+                                    <option value="captains-gambit">Captain's Gambit</option>
+                                    <option value="critter-quest">Critter Quest</option>
+                                    <option value="setters-catan">Setters of Catan</option>
+                                    <option value="monopoly">Monopoly</option>
+                                    <option value="exploding-kittens">Exploding Kittens</option>
+                                    <option value="cluedo">Cluedo</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-xl-4 mb-3">
+                                <label for="date" class="form-label">Requested Date</label>
+                                <input class="form-control" id="date" name="date" type="date" min="01/01/2023" max="31/12/2030">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn custom-button-outline float-end mb-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- Footer / Contact Section Elements -->
     <footer class="mt-auto" id="contact">    <!-- Bootstrap margin-auto added to push Footer to bottom of page -->
